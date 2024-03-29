@@ -8,8 +8,8 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background-color: red;
-    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);padding: 10px;
 }
 
 .todo-box{
@@ -23,9 +23,11 @@
 }
 
 .todo-box h2{
-    color: #002765;
+    font-size: 2.5rem;
+    color: rgb(237, 7, 45);
     display: flex;
     align-items: center;
+    padding-left: 2px;
     margin-bottom: 20px;
 }
 .row{
@@ -52,7 +54,7 @@ button{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: rgb(21, 21, 166);
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -67,6 +69,7 @@ ul li{
     cursor: pointer;
     position: relative;
 }
+
 ul li::before{
     content: '';
     position: absolute;
